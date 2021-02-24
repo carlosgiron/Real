@@ -1,0 +1,7 @@
+//===================================================================================
+// Template T4 for WCF Services
+//===================================================================================
+
+<%@ ServiceHost
+    Service="Real.Servicios.Contratos.ICUACD01Servicio, Real.Servicios.Contratos"
+    Factory="Autofac.Integration.Wcf.AutofacServiceHostFactory, Autofac.Integration.Wcf" %>	

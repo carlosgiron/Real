@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>34cf0c16-c9d2-41ea-b232-3ff79c08ed2a</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Real.Entidades\Real.Entidades.csproj" />
+    <ProjectReference Include="..\Real.Servicios.Contratos\Real.Servicios.Contratos.csproj" />
+    <ProjectReference Include="..\Real.Servicios\Real.Servicios.csproj" />
+  </ItemGroup>
+
+
+</Project>
